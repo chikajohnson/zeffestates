@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
         <!-- LightBox -->
         <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
-        <title>Zeff Estates Limited</title>
+        <title>  Zeff Estates Limited  {% block title %}{% endblock  %} </title>
     </head>
     <body>
          {% include 'partials/_topbar.html' %}
